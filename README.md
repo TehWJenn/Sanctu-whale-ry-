@@ -13,7 +13,11 @@ This game aims to promote and spread awareness of the Beluga whales and the impo
 
 THINGS TO NOTE:
 
+hi hi everyone XD
 This file have a main file as well as branches. We have three branches each branch will represent each scenes. 
 DO NOT MERGE THE BRANCHES TO THE MAIN DEFAULT BRANCH
 --> commit the file within the branch of the edited scene
     we will figure out how to merge the branches together after all scenes are done.
+
+
+    thank you :)) ~jenn
