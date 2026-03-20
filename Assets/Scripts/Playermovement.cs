@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Playermovement : MonoBehaviour
 {
-    [SerializeField] float speed = 2f;
+    [SerializeField] float speed = 3f;
     Vector2 lastClickedPos;
     bool moving;
 
