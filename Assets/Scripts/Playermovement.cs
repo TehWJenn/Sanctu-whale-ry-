@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Playermovement : MonoBehaviour
 {
@@ -54,6 +55,12 @@ public class Playermovement : MonoBehaviour
             player.SetBool("isWalking", false);
         }
     } 
+
+   public void Move(InputAction.CallbackContext context)
+    {
+        Vector2 inputVector = context.ReadValue<Vector2>();
+    
+    }
 }
 
 //Part2 
