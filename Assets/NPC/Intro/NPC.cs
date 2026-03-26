@@ -97,6 +97,14 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
         PauseController.SetPause(false);
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        
+        if (UnityEngine.EventSystems.EventSystem.current != null)
+            UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+
+        Playermovement.canMove = true;
     }
 
 

@@ -7,15 +7,19 @@ public class InteractionDetector : MonoBehaviour
 {
     private IInteractable  interactableInRange = null; //closet interactable
     public GameObject interactionIcon;
+    public GameObject dialoguePanel;
         void Start()
     {
         interactionIcon.SetActive (false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void OnInteract(InputAction.CallbackContext context)
     {
         if(context.performed)
         {
+            
             interactableInRange?.Interact();
         }
     }
@@ -38,4 +42,5 @@ public class InteractionDetector : MonoBehaviour
             interactionIcon.SetActive(false);
         }
     }
+
 }

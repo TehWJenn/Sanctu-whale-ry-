@@ -10,19 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe43c1e23f2934425895afde7f83dfc5, type: 3}
-  m_Name: intro
+  m_Name: SoundWaves
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: pov
-  npcPortrait: {fileID: 6934086728263231946, guid: ccc091413cc9c4dc5bc9d11dd58ab66d, type: 3}
+  npcName: <Ship's Sound Waves>
+  npcPortrait: {fileID: 0}
   dialogueLines:
-  - I'm Free!
-  - 'These waters are a dream, the expense is liberating '
-  - 'I can feel the echoes of the sea, my sounds echoes off into the dark abyss and
-    not back towards me. '
-  - 'I wonder what happens if I call out? '
-  - '*SpaceButton to echo*'
-  autoProgressLines: 0101010100
+  - My senses are clouded, something is masking my echoes.
+  - ' I cannot sense my surroundings what if I crash towards something??'
+  autoProgressLines: 0100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: c180ef3c5d23d47208b9128e12ad7e10, type: 3}
-  voicePitch: 0
+  voicePitch: 1
