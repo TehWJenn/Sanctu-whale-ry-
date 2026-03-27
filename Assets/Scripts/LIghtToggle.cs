@@ -11,7 +11,7 @@ public class LightToggle : MonoBehaviour
     [SerializeField] private float lightDuration = 2f; // How long it stays bright
     [SerializeField] private float fadeDuration = 2f;   // How long it takes to dim
     [SerializeField] private float maxIntensity = 2f;   // The brightness when ON
-
+    
     void Start()
     {
         myLight = GetComponent<Light2D>();
