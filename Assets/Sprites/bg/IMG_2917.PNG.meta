@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 7fc545ce18af642d89a38f60bf27f5e4
+guid: 0602802b47b6b4828bf781f77a5d7791
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8909968236317020522
-    second: IMG_2913_0
-  - first:
-      213: -5167809661413231600
-    second: IMG_2913_1
+      213: 3627059689985510793
+    second: IMG_2917_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2913_0
+      name: IMG_2917_0
       rect:
         serializedVersion: 2
-        x: 4546
-        y: 663
-        width: 499
-        height: 248
+        x: 5652
+        y: 893
+        width: 329
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69e6f4a981f695480800000000000000
-      internalID: -8909968236317020522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_2913_1
-      rect:
-        serializedVersion: 2
-        x: 4607
-        y: 766
-        width: 347
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 014f1a04e704848b0800000000000000
-      internalID: -5167809661413231600
+      spriteID: 98d89b03297e55230800000000000000
+      internalID: 3627059689985510793
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2913_0: -8909968236317020522
-      IMG_2913_1: -5167809661413231600
+      IMG_2917_0: 3627059689985510793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

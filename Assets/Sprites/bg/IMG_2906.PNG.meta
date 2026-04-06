@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: dd91559087a844975a1f152aad8bdfeb
+guid: f8f77646670e24c5a88fedeaa0140ca4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2019695827362013772
-    second: IMG_2908_0
-  - first:
-      213: -5998123684586335187
-    second: IMG_2908_1
+      213: -4337415787586843561
+    second: IMG_2906_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2908_0
+      name: IMG_2906_0
       rect:
         serializedVersion: 2
-        x: 3352
-        y: 600
-        width: 455
-        height: 231
+        x: 2112
+        y: 422
+        width: 5654
+        height: 658
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bd9fb7885998f3e0800000000000000
-      internalID: -2019695827362013772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_2908_1
-      rect:
-        serializedVersion: 2
-        x: 3438
-        y: 725
-        width: 306
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d24df5dc94262cca0800000000000000
-      internalID: -5998123684586335187
+      spriteID: 75c07b162576ec3c0800000000000000
+      internalID: -4337415787586843561
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2908_0: -2019695827362013772
-      IMG_2908_1: -5998123684586335187
+      IMG_2906_0: -4337415787586843561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

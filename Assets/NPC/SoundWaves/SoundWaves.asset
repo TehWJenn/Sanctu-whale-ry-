@@ -15,8 +15,8 @@ MonoBehaviour:
   npcName: <Ship's Sound Waves>
   npcPortrait: {fileID: 0}
   dialogueLines:
-  - My senses are clouded, something is masking my echoes.
-  - ' I cannot sense my surroundings what if I crash towards something??'
+  - My senses are clouded, something is masking my echoes.   I cannot sense my surroundings
+    what if I crash towards something??
   autoProgressLines: 0100
   autoProgressDelay: 1.5
   typingSpeed: 0.05

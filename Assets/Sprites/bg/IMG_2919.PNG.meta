@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aa711ac53f2f34235b13220c68e132ea
+guid: 98c55cebe180040268c6a0e8eefedf2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6328188563977406489
-    second: IMG_2918_0
+      213: 8287925349734695785
+    second: IMG_2919_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2918_0
+      name: IMG_2919_0
       rect:
         serializedVersion: 2
-        x: 6115
-        y: 919
+        x: 4716
+        y: 910
         width: 329
         height: 150
       alignment: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e7ff6c7702cd28a0800000000000000
-      internalID: -6328188563977406489
+      spriteID: 96344ebb130a40370800000000000000
+      internalID: 8287925349734695785
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2918_0: -6328188563977406489
+      IMG_2919_0: 8287925349734695785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
