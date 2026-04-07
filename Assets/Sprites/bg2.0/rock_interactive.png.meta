@@ -1,0 +1,5609 @@
+fileFormatVersion: 2
+guid: bbd1caa90b5f24ccab9a64fe110313e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4366321291155983748
+    second: rock_interactive_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rock_interactive_0
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 676
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c723c616be5b763c0800000000000000
+      internalID: -4366321291155983748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_1
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 676
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d019781ff02d54010ae88cc3f5bf07d1
+      internalID: -114605911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_2
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc53c4e0f3d740788bca00777182266
+      internalID: 383921579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_3
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf63ed4f17a4c24a5507c00ea48249
+      internalID: -1777830317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_4
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a8af72c7ded4d4690b973ba9e2da7e
+      internalID: -315717364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_5
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c07a0e65281c4078bb33215609b045f
+      internalID: -261662596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_6
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5533ff41355ea4b78be0598f8d07f0fa
+      internalID: -169652638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_7
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8296fd960a0c643a98f224f5fd80764a
+      internalID: -4846254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_8
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093037e57e515467dbeb2afd1fbe8446
+      internalID: 1127979279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_9
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89ab940b86e4a0ea6975958465455c
+      internalID: 669078622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_10
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fef0934b73847a0ade2945bcd9625b
+      internalID: -1296757707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_11
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b6bbbfd4d1d4945af3f3e9a262b721
+      internalID: -494860241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_12
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb9cc2071ea4838a6728041eb5ebc7
+      internalID: -2032385528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_13
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4f5696f1b544b87989aa11be0dd5e5
+      internalID: -1313827063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_14
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 575
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c838fe91e72a64f95821524544c47981
+      internalID: 611805111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_15
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba54a5a12ba64197b0b4bea192ac8a0
+      internalID: 1098690422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_16
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea61242241e149bb8d09ccd8ee7b9e3
+      internalID: -661686883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_17
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8a95e8a4eb40a482f3155d33f70c8
+      internalID: -612541165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_18
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ec17be8b3d84f89bb5f9fb368e9436
+      internalID: 197959899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_19
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb8bd6e1d9514c648b3af0870acbc89
+      internalID: 643175627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_20
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893a7b2ea9fb447c094a201132df0667
+      internalID: 2087492353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_21
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f978e36d93944d995b4a7d68a2c50f
+      internalID: 1195255733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_22
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ac5387d98314caa8d2a18338d8787a
+      internalID: -475911601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_23
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c044ecfdf842dd8aba6ff58f3270e
+      internalID: 475115139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_24
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18e766ec3f3d443aa64e1898e8756d2
+      internalID: -458858854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_25
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c073064b268da4509a2efaa4dfd9db5e
+      internalID: 1845108606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_26
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454d1d9e9ed1740238c4351f3bfbd2dc
+      internalID: 1631931377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_27
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8d259c33291474cb6d041a14a3ced2
+      internalID: -1715376096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_28
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e2db7b54a0f4b2cbf93355b2f4afad
+      internalID: -922458047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_29
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d854f4b0843454b7f84ed92cfdb8f8d5
+      internalID: 974015525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_30
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74fa69943f84e0e819c047f7f821e7
+      internalID: -952281333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_31
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd83019a49b496d877ec94b8e7150e
+      internalID: 1945288289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_32
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8752c8ed1e80c4ce8a9bae3842afaa9f
+      internalID: -1029906291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_33
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1167c9b563ff2459eac84722add6bcee
+      internalID: 1139379479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_34
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3411ed805e94573bf87abb63ea96fc
+      internalID: -254749689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_35
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d996c3e1d22340efb6d187fdb7e4416
+      internalID: -340787221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_36
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c4425ff5f5435cae656ac334a529f
+      internalID: -1912858037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_37
+      rect:
+        serializedVersion: 2
+        x: 6868
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6bd855d7bf54e88a2b8e5a6a480dd9
+      internalID: 2003625800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_38
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0368ce3c10040e7a94cc3a04442dc0
+      internalID: 1336718849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_39
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 474
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815172e126fd240d89b361a2a2516f7d
+      internalID: 1782922152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_40
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbf99162a9fa4405b61fc483ef00717
+      internalID: -947012012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_41
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4447244b317134003ba961cc74a13a51
+      internalID: -1229774545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_42
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0405a0cd22a624da7809454cf2b5d80b
+      internalID: -1728755978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_43
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da913f6ec04f4c20895a5497a370a27
+      internalID: -1661365140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_44
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38e60fe5a124ae49d7cea75b603946
+      internalID: 451909483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_45
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d2ddc9b3324391b690f86dc42101a
+      internalID: -1244665108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_46
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea822e9a3e2b34f1b9733dedc3964305
+      internalID: -1260892002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_47
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb090c2717f9d417186925f19defac82
+      internalID: -744136634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_48
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ff880db264b46569c794034a176bf3
+      internalID: -1373093780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_49
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea2a571044b44ee7a844ec1a48e271e
+      internalID: 1877346449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_50
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705329797f021427a93b4c6c512746c0
+      internalID: -1952504965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_51
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09495cee7a4bb4797a0ac8d60fdd049b
+      internalID: -1014951604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_52
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e993e6393bf47457e90fbc881a402f2b
+      internalID: 1786136898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_53
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde6f548e2e6042bfa3e2ee381034f20
+      internalID: -879408282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_54
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0927bf87dbcf4b729f4a03309b1f3c7
+      internalID: 1777190898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_55
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1488855f25b54267b6589c960b47f3f
+      internalID: 1223377942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_56
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e8539595e648b6872783a9aed0721
+      internalID: 1907381950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_57
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d3c46706ec14927b39c50f5e383bed
+      internalID: 1171474417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_58
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa48696c95da148e899db907e707074b
+      internalID: -280030692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_59
+      rect:
+        serializedVersion: 2
+        x: 5353
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5999b71b47d424ea1f73ae4d564d4f
+      internalID: 983454556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_60
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b84bf2a29d149f1ab80710ade171ac
+      internalID: -813161929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_61
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e62175e2c0498bb1e5bef5e0b22b4
+      internalID: -694098507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_62
+      rect:
+        serializedVersion: 2
+        x: 5757
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22db25b0cb4224cf099615b214f918a6
+      internalID: 1164884999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_63
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8758fedca1e4cf9953d70219341be5
+      internalID: 232510539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_64
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cfbcceb0c264188830e80b2e7cc776
+      internalID: 1796144271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_65
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd0800f42ea647ae9d8ef4d65c1d6a1
+      internalID: 915589663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_66
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c7601b295141ada2128ac12cd8912
+      internalID: -1189835538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_67
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86ebb40c2a6c4b92aec8cf05289b0eb
+      internalID: 308979343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_68
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0f3ee6975cb4d86941d886ebe6a92e
+      internalID: -1611225595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_69
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01219ccfe526d4b9fa289cb0aa91877b
+      internalID: -1435432209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_70
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a9cd52b2134a6e9f8c8e193191cc3
+      internalID: 464829304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_71
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d5f25a04854259b98484cd524a6ef
+      internalID: -1354039064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_72
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70326265db87b4349ad72f0040383c6f
+      internalID: 1905607775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_73
+      rect:
+        serializedVersion: 2
+        x: 6868
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7860aefabe0f44d2185e5fb8d09c097a
+      internalID: -1951611856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_74
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c55000cd393246c994406cf6166881b
+      internalID: 1208674092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_75
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cef768e0390e42ba88173d25f3d19f9
+      internalID: 2012004681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_76
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 373
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeea40ff60f6426f883fa8b1e8f30c9
+      internalID: -2134295594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_77
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd99f455bdee4c7692a6bdc9621fb4e
+      internalID: -1909939111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_78
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d5ebaee94bc4110abc7a4cc869004c
+      internalID: 1924510590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_79
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a874dc38e1e72451f8b046aef15a678d
+      internalID: 1469064216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_80
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f392e0964e3e4ef6abdfa23942d4ab6
+      internalID: -1639776522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_81
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6a5cce89a394e7fa25c3a9d2c91edc
+      internalID: -557795971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_82
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bc05611318b4d3590ceac7d82b9942
+      internalID: -122218628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_83
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc8f6b5ab8904001b3cf0f2035c76cd
+      internalID: 1690207551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_84
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4d735bc93144ab5a88d698014e9391
+      internalID: 921693680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_85
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cdeceedb72d496aaaea5a4fab499d1
+      internalID: -86922318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_86
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d468b70974d9b4ac69f9059e3fbf4674
+      internalID: 2048176691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_87
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a3d20f9612d4d5296db9a4759d6b8f
+      internalID: 1340073966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_88
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e154a8c70f747ffb32ca0b91847c80
+      internalID: -997134537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_89
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea8aa2262af64ed0b8abace88a5ae87
+      internalID: -1312749084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_90
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ed42487ffbd4755b64c9686bec9784
+      internalID: -1652354618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_91
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92bf5312fd9b48b18430501f4dbf772
+      internalID: -1160110482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_92
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5324bfea68b9b49f181576c3ce4f60d9
+      internalID: -1587394258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_93
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d80350c4c134ec59d848001f94f8c5
+      internalID: -2085620708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_94
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cd78e2cc84a41f4946e89138bb22c9
+      internalID: 264228979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_95
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481b9295e991d486b834736b436ca955
+      internalID: -1943783903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_96
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb01db174d254742acef1033c542cf7
+      internalID: -1505683803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_97
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3e2cd68ed0040839617504a3d71db5
+      internalID: 629900644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_98
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e02aa551d7243c2ae2eea8f41cfe92
+      internalID: 1738876553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_99
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f20e13648046058d1fd3f729f05e1
+      internalID: -415291517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_100
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c5914aabd8d461394d10acf3b4f110
+      internalID: -834333427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_101
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ac7bfadef2a43ca9c3f5d943105a80
+      internalID: 613322410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_102
+      rect:
+        serializedVersion: 2
+        x: 5353
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a80279f27f0a4f109a600ba0ebb3638
+      internalID: 539481947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_103
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5b9301869bd42a8a04604332b02379
+      internalID: 1606768873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_104
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a67aaf70ae44207a5ddb62fe6f9bdc
+      internalID: 1562277161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_105
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeac9cc4ec0649a3a4e6f76a39a8397
+      internalID: 1391514834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_106
+      rect:
+        serializedVersion: 2
+        x: 5757
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c070629b40e0040499d0e62d131e63ca
+      internalID: -1201715428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_107
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753f4827f8fe4c0e83abfc2d747b0df
+      internalID: -974809795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_108
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513febf5272294704a7cf6285c716f7d
+      internalID: 1061874946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_109
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8334dc731e95429492982783dd0622a
+      internalID: 1202359421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_110
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6596de3f6744b2972988f6ee68fe1
+      internalID: 7800373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_111
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121058d1aaae74619bb7077c058f186f
+      internalID: -585122262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_112
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b0765ad4b545659efa24e2bc59360
+      internalID: -1754308111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_113
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e03ac46494634c9dba82bbb1ed5635a
+      internalID: -1536574366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_114
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dc7591e3b0444a08f1ba3bd616798d
+      internalID: 520515456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_115
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdd8916043594ec6afdd1214d7b1686
+      internalID: 433524235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_116
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd767fd4d24934c01b8bb268308d259e
+      internalID: -987414532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_117
+      rect:
+        serializedVersion: 2
+        x: 6868
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09446f5d017624e4896b2cbebb55e158
+      internalID: 1276026435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_118
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b542ad83bb1146e5b32a83f8cdd2d47
+      internalID: 812990383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_119
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ce760f5c8b4534bc82686b121ad48
+      internalID: 1559001349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_120
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3deba4430504c2f93e417a919e31fc
+      internalID: -553875644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_121
+      rect:
+        serializedVersion: 2
+        x: 7272
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8829ff1cd0d144c7fa4c75adafd1a10c
+      internalID: 748830156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_122
+      rect:
+        serializedVersion: 2
+        x: 7373
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5bc72b597894d34a23fdc9bc0effee
+      internalID: 1358215495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_123
+      rect:
+        serializedVersion: 2
+        x: 7575
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9fa921582114294b9cd96b2feeeaf0
+      internalID: 1902251791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_124
+      rect:
+        serializedVersion: 2
+        x: 7676
+        y: 272
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6508f94b628ca4846915fbb7a09608f3
+      internalID: -1972023492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_125
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2cd9ba1e56c4ce2b8a8564e32c9c32
+      internalID: -2004084211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_126
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd422372b03494e9488b4e3a5da53eff
+      internalID: 418027477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_127
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15f2c52aa3cd47488e493234392592d
+      internalID: -1414353347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_128
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1f925770f0c408e885249785417fd7
+      internalID: -1651240611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_129
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce71bcc4e37804f999437109e82bba92
+      internalID: 634930281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_130
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94fad91366c4410bb228938b47c6c91
+      internalID: -1458440508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_131
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c829a41edfcb4d91a3d36f816104a9e
+      internalID: 1318763932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_132
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2750b701eb6418983d9338dbf10157
+      internalID: -1591281484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_133
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68b41bcbbfa24e4faed8e5d436694eb
+      internalID: 1702973531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_134
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804a62a289e7d4187b800b54aae05e5f
+      internalID: 2098271729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_135
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050a6c65d4c404242b4166fd3488a873
+      internalID: -510200884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_136
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea438313ccac4a7bb6afa829fd041ec
+      internalID: 1368698302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_137
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c84cb63999f486e90344cddd2b2911
+      internalID: -445580200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_138
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14c08bf6da841038169cbf96133487
+      internalID: 2042289486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_139
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b262ffa47496f47eca6cc1d7d671e086
+      internalID: 1578248825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_140
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9debdaf20e45420686d99271a60363a
+      internalID: -920103022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_141
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25336b458fc7a4876a3acafe5155e6f6
+      internalID: -1214934135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_142
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e817fcb4b95049899a107de011b314c
+      internalID: -429089626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_143
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbee4e13cdc64b08828faac42b28fe0
+      internalID: -1511375235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_144
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83fa8b0a1068445386db53a585bfa46
+      internalID: 1278899564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_145
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241f547cff8a4597be91c36d736334f
+      internalID: -1459352040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_146
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a5b35116379431987905fb0b048cea
+      internalID: 1750614335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_147
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188d91764370c4f86b76251976ca3a60
+      internalID: 141518672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_148
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c6b556a1d2b466a9fa8ab7850312f5
+      internalID: 659381015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_149
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203819e75c343484a827a660be9c4f37
+      internalID: -1983840274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_150
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b1e6a6aa4c948c7adc86fab86951aa
+      internalID: -1447363027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_151
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3c1ff2d2ef34d52ace600d1a8fd727
+      internalID: -338834693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_152
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeed626b63e54ac9bca8f8b2733d00f
+      internalID: -689690206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_153
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d6234ddf974693adbcfbc012ea5d1
+      internalID: 992740337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_154
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4caceebd7d4bdfaa21d693212e5f3
+      internalID: -220082315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_155
+      rect:
+        serializedVersion: 2
+        x: 5353
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8971b96d065224f7f8b718e5628c918b
+      internalID: -763988307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_156
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5450dd2fba4ab0a56ebad44b21fc8
+      internalID: -1793264313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_157
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384507b217e1498f9d7cbbd851f6654
+      internalID: 1712941706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_158
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e68434a443f49cd854e7e1f7f92d98
+      internalID: 1812465401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_159
+      rect:
+        serializedVersion: 2
+        x: 5757
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5efe68e447e4d688989f2c262a820d
+      internalID: 881968482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_160
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed841117f9d0452aaa3841495e07a02
+      internalID: 1278415655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_161
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009316cc34e0042a5a966db211326d6e
+      internalID: -611763637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_162
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1aeee8666064f4b8793bfbe3bd1d3a
+      internalID: 338893320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_163
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea22fd208adc478ab5ec6bb2f9349ff
+      internalID: 1413772389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_164
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c22931e74a3642e9a5879e0cecd9c9a
+      internalID: 301338393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_165
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7393b7b3d1ec4d28917ae9a5f01119b
+      internalID: 1049812320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_166
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0f0597a76e4aa9a6c072030909059
+      internalID: 765111982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_167
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9561b6cb3e67e434c935f32aa67856e1
+      internalID: 572323296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_168
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af9a5d02c45e4e15b608632877ef643
+      internalID: 577268979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_169
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3b9331a50b452da055db38ab3861f
+      internalID: -81322252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_170
+      rect:
+        serializedVersion: 2
+        x: 6868
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5914f8b868fba4878b6ecfc8c40b6861
+      internalID: 1992115899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_171
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774595b53f2654e9ea40d65e748d3e50
+      internalID: 1888015993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_172
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb78efa91b384b9791a8617bef46563
+      internalID: -51658490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_173
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc4e3615c1946af84c62c6c4be3bac
+      internalID: 1018398577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_174
+      rect:
+        serializedVersion: 2
+        x: 7272
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc33ac386c214cea937d4ae8ad033d2
+      internalID: 730198715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_175
+      rect:
+        serializedVersion: 2
+        x: 7373
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d52a567ca76e487f961c7a338b6e3b8
+      internalID: -1803144366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_176
+      rect:
+        serializedVersion: 2
+        x: 7474
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdeb917b58bf4541b60630d166081c8
+      internalID: -717187207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_177
+      rect:
+        serializedVersion: 2
+        x: 7575
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295fc31bdf417491199351e7b02d2206
+      internalID: 550469241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_178
+      rect:
+        serializedVersion: 2
+        x: 7676
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50324e5eb6b394987bf3d4e80a81ce15
+      internalID: 1917985585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_179
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0275749faf9b4e76b1c00700b66e4a5
+      internalID: 170350382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_180
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16353d867d0914675944e87541d31db3
+      internalID: -789585361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_181
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e46cece037e4eba8ddb9bdb74184ff
+      internalID: 1412103157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_182
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc132c7241db0450288e3098d3696647
+      internalID: -861108705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_183
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f50f85c1ac014f4b82cb23c271c0f52
+      internalID: -2011532048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_184
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc40c9188e14241e09a5d9bab5b9e58b
+      internalID: 2039103650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_185
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b63628123d424090ab1fcea6f0461de
+      internalID: -1102481926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_186
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556f86924fef2436fb31946e9e7d8bf7
+      internalID: 1671388335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_187
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87da65a114433445a9ea0b529b10d797
+      internalID: 439727146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_188
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024084adf66a04ce0a9147b788b836b5
+      internalID: 376697423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_189
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126ec331915d94ddaaf714b27f2a394c
+      internalID: 782763585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_190
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597b48c5d655f4ab5963ed860f9f9d16
+      internalID: -1704738699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_191
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca81401c4580945419e88b499849c3ed
+      internalID: 981864844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_192
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0838afaaf9f6540df9b736fb0e83bd7e
+      internalID: 1748397820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_193
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe20381589e34afe9deab78b8953e5c
+      internalID: 1461558277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_194
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef8148a237ab442ebfeff0c670371be
+      internalID: 2143551545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_195
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf808b14aa42d45e8a05f2cce380a276
+      internalID: -1001753893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_196
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b86a38140f140e39c5d2cc73c47e57
+      internalID: 2052045818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_197
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc9ada420d72445d86809c235fc21bd
+      internalID: 656760626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_198
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7520989a64d9d49e79894165e6a85757
+      internalID: 1952873256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_199
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb2bc28b22c48d39c8ce3615b246b6
+      internalID: 850423290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_200
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074c06d6c8f44cf3871c07c9ea1700b
+      internalID: -294606366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_201
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6b3278464841fc8c70f9cf6d6677f
+      internalID: 2015494712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_202
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a62deecc82c4131ba53974ce04729f
+      internalID: -215180705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_203
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8189ab906266f4d6cafbb353d31506b0
+      internalID: -1605502433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_204
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3e5b316fbe944e185144b545892d72
+      internalID: -631755083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_205
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3151d53e03484466b1550802804a276
+      internalID: 170732283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_206
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66789ce2e25d140d6808dfd1e3993305
+      internalID: 552452848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_207
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fbe52fa3f9f4573a7b28236f34ff8e
+      internalID: 2127038755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_208
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90b881384cfb43f297762ea3fe0f583
+      internalID: 713666778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_209
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d542b8eef5b0a4a4ebfb1a4310856530
+      internalID: -159507119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_210
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d77dc0a8195f44e7a2a5b3c8ddcd122
+      internalID: 1523582295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_211
+      rect:
+        serializedVersion: 2
+        x: 5353
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f515417ed8a4f0c80507f691701555
+      internalID: -852046068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_212
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49edd56f976794f6cb6fac0a8ab85c2f
+      internalID: -87218807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_213
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6490f87e838d54969915c00ad1833f9b
+      internalID: -1904025370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_214
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd03451d41ed4edf8cf772e54900573
+      internalID: 377498467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_215
+      rect:
+        serializedVersion: 2
+        x: 5757
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74043148ac294efbb937365a1abcf51
+      internalID: -942980396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_216
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d3235f46a574954b05f41e9706e746
+      internalID: 2022305649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_217
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8941836e8a430899309987bdd8d15
+      internalID: -1275458383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_218
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72700705e9e1a4700b7434011157d528
+      internalID: 1789822668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_219
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795808cfdc76a41e2bc11478210d7805
+      internalID: -575404162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_220
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610578be30c2472180d0330e48680e3
+      internalID: -791705588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_221
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db511d5609ec44458c5c960a7d5dbd1
+      internalID: 133128684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_222
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d3293c044f422eaa7fa1a61c101e8
+      internalID: 994359931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_223
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba64f0cd6a784b40bda77c30fa15239
+      internalID: -51428605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_224
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d67e8a66153f4cf7839b104511013e2
+      internalID: 1766790397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_225
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273234439ace946d7b2995c46c9094cb
+      internalID: -218159690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_226
+      rect:
+        serializedVersion: 2
+        x: 6868
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98e8385267d74ae7aacf9914a6b8510
+      internalID: 100525903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_227
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c4f73639dc4b4c8a0b4445aa1b621
+      internalID: -88563515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_228
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f7f6843082f4fb58748e45b4db62c3
+      internalID: 1358906572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_229
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05dc326263bc432b9de8939942347b9
+      internalID: 1296373648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_230
+      rect:
+        serializedVersion: 2
+        x: 7272
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b978ae8ead3b1470e833c9a7a4b29503
+      internalID: -1597884087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_231
+      rect:
+        serializedVersion: 2
+        x: 7373
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc680a7271e5c46208fd00df342e3b0a
+      internalID: -1536737939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_232
+      rect:
+        serializedVersion: 2
+        x: 7474
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f2988b02c54d9089cacdc0e46d17e
+      internalID: -598292559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_233
+      rect:
+        serializedVersion: 2
+        x: 7575
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef57d764ad8e4b018608d35171cdae4
+      internalID: -1444024342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_234
+      rect:
+        serializedVersion: 2
+        x: 7676
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dc2c1afb04e49aaa8c46166706feb9
+      internalID: 406163163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_235
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53999d289024c4e2684a2b9cd905668f
+      internalID: 599353435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_236
+      rect:
+        serializedVersion: 2
+        x: 7878
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db40828dff2c744e2a4d1f8b8df92417
+      internalID: -1440144828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock_interactive_237
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 70
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c205ed805954deb9a07341139b227a
+      internalID: 322290695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ba817787dea3e42a799e4384f3b45b07
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":101.0,"y":101.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      rock_interactive_0: -4366321291155983748
+      rock_interactive_1: -114605911
+      rock_interactive_10: -1296757707
+      rock_interactive_100: -834333427
+      rock_interactive_101: 613322410
+      rock_interactive_102: 539481947
+      rock_interactive_103: 1606768873
+      rock_interactive_104: 1562277161
+      rock_interactive_105: 1391514834
+      rock_interactive_106: -1201715428
+      rock_interactive_107: -974809795
+      rock_interactive_108: 1061874946
+      rock_interactive_109: 1202359421
+      rock_interactive_11: -494860241
+      rock_interactive_110: 7800373
+      rock_interactive_111: -585122262
+      rock_interactive_112: -1754308111
+      rock_interactive_113: -1536574366
+      rock_interactive_114: 520515456
+      rock_interactive_115: 433524235
+      rock_interactive_116: -987414532
+      rock_interactive_117: 1276026435
+      rock_interactive_118: 812990383
+      rock_interactive_119: 1559001349
+      rock_interactive_12: -2032385528
+      rock_interactive_120: -553875644
+      rock_interactive_121: 748830156
+      rock_interactive_122: 1358215495
+      rock_interactive_123: 1902251791
+      rock_interactive_124: -1972023492
+      rock_interactive_125: -2004084211
+      rock_interactive_126: 418027477
+      rock_interactive_127: -1414353347
+      rock_interactive_128: -1651240611
+      rock_interactive_129: 634930281
+      rock_interactive_13: -1313827063
+      rock_interactive_130: -1458440508
+      rock_interactive_131: 1318763932
+      rock_interactive_132: -1591281484
+      rock_interactive_133: 1702973531
+      rock_interactive_134: 2098271729
+      rock_interactive_135: -510200884
+      rock_interactive_136: 1368698302
+      rock_interactive_137: -445580200
+      rock_interactive_138: 2042289486
+      rock_interactive_139: 1578248825
+      rock_interactive_14: 611805111
+      rock_interactive_140: -920103022
+      rock_interactive_141: -1214934135
+      rock_interactive_142: -429089626
+      rock_interactive_143: -1511375235
+      rock_interactive_144: 1278899564
+      rock_interactive_145: -1459352040
+      rock_interactive_146: 1750614335
+      rock_interactive_147: 141518672
+      rock_interactive_148: 659381015
+      rock_interactive_149: -1983840274
+      rock_interactive_15: 1098690422
+      rock_interactive_150: -1447363027
+      rock_interactive_151: -338834693
+      rock_interactive_152: -689690206
+      rock_interactive_153: 992740337
+      rock_interactive_154: -220082315
+      rock_interactive_155: -763988307
+      rock_interactive_156: -1793264313
+      rock_interactive_157: 1712941706
+      rock_interactive_158: 1812465401
+      rock_interactive_159: 881968482
+      rock_interactive_16: -661686883
+      rock_interactive_160: 1278415655
+      rock_interactive_161: -611763637
+      rock_interactive_162: 338893320
+      rock_interactive_163: 1413772389
+      rock_interactive_164: 301338393
+      rock_interactive_165: 1049812320
+      rock_interactive_166: 765111982
+      rock_interactive_167: 572323296
+      rock_interactive_168: 577268979
+      rock_interactive_169: -81322252
+      rock_interactive_17: -612541165
+      rock_interactive_170: 1992115899
+      rock_interactive_171: 1888015993
+      rock_interactive_172: -51658490
+      rock_interactive_173: 1018398577
+      rock_interactive_174: 730198715
+      rock_interactive_175: -1803144366
+      rock_interactive_176: -717187207
+      rock_interactive_177: 550469241
+      rock_interactive_178: 1917985585
+      rock_interactive_179: 170350382
+      rock_interactive_18: 197959899
+      rock_interactive_180: -789585361
+      rock_interactive_181: 1412103157
+      rock_interactive_182: -861108705
+      rock_interactive_183: -2011532048
+      rock_interactive_184: 2039103650
+      rock_interactive_185: -1102481926
+      rock_interactive_186: 1671388335
+      rock_interactive_187: 439727146
+      rock_interactive_188: 376697423
+      rock_interactive_189: 782763585
+      rock_interactive_19: 643175627
+      rock_interactive_190: -1704738699
+      rock_interactive_191: 981864844
+      rock_interactive_192: 1748397820
+      rock_interactive_193: 1461558277
+      rock_interactive_194: 2143551545
+      rock_interactive_195: -1001753893
+      rock_interactive_196: 2052045818
+      rock_interactive_197: 656760626
+      rock_interactive_198: 1952873256
+      rock_interactive_199: 850423290
+      rock_interactive_2: 383921579
+      rock_interactive_20: 2087492353
+      rock_interactive_200: -294606366
+      rock_interactive_201: 2015494712
+      rock_interactive_202: -215180705
+      rock_interactive_203: -1605502433
+      rock_interactive_204: -631755083
+      rock_interactive_205: 170732283
+      rock_interactive_206: 552452848
+      rock_interactive_207: 2127038755
+      rock_interactive_208: 713666778
+      rock_interactive_209: -159507119
+      rock_interactive_21: 1195255733
+      rock_interactive_210: 1523582295
+      rock_interactive_211: -852046068
+      rock_interactive_212: -87218807
+      rock_interactive_213: -1904025370
+      rock_interactive_214: 377498467
+      rock_interactive_215: -942980396
+      rock_interactive_216: 2022305649
+      rock_interactive_217: -1275458383
+      rock_interactive_218: 1789822668
+      rock_interactive_219: -575404162
+      rock_interactive_22: -475911601
+      rock_interactive_220: -791705588
+      rock_interactive_221: 133128684
+      rock_interactive_222: 994359931
+      rock_interactive_223: -51428605
+      rock_interactive_224: 1766790397
+      rock_interactive_225: -218159690
+      rock_interactive_226: 100525903
+      rock_interactive_227: -88563515
+      rock_interactive_228: 1358906572
+      rock_interactive_229: 1296373648
+      rock_interactive_23: 475115139
+      rock_interactive_230: -1597884087
+      rock_interactive_231: -1536737939
+      rock_interactive_232: -598292559
+      rock_interactive_233: -1444024342
+      rock_interactive_234: 406163163
+      rock_interactive_235: 599353435
+      rock_interactive_236: -1440144828
+      rock_interactive_237: 322290695
+      rock_interactive_24: -458858854
+      rock_interactive_25: 1845108606
+      rock_interactive_26: 1631931377
+      rock_interactive_27: -1715376096
+      rock_interactive_28: -922458047
+      rock_interactive_29: 974015525
+      rock_interactive_3: -1777830317
+      rock_interactive_30: -952281333
+      rock_interactive_31: 1945288289
+      rock_interactive_32: -1029906291
+      rock_interactive_33: 1139379479
+      rock_interactive_34: -254749689
+      rock_interactive_35: -340787221
+      rock_interactive_36: -1912858037
+      rock_interactive_37: 2003625800
+      rock_interactive_38: 1336718849
+      rock_interactive_39: 1782922152
+      rock_interactive_4: -315717364
+      rock_interactive_40: -947012012
+      rock_interactive_41: -1229774545
+      rock_interactive_42: -1728755978
+      rock_interactive_43: -1661365140
+      rock_interactive_44: 451909483
+      rock_interactive_45: -1244665108
+      rock_interactive_46: -1260892002
+      rock_interactive_47: -744136634
+      rock_interactive_48: -1373093780
+      rock_interactive_49: 1877346449
+      rock_interactive_5: -261662596
+      rock_interactive_50: -1952504965
+      rock_interactive_51: -1014951604
+      rock_interactive_52: 1786136898
+      rock_interactive_53: -879408282
+      rock_interactive_54: 1777190898
+      rock_interactive_55: 1223377942
+      rock_interactive_56: 1907381950
+      rock_interactive_57: 1171474417
+      rock_interactive_58: -280030692
+      rock_interactive_59: 983454556
+      rock_interactive_6: -169652638
+      rock_interactive_60: -813161929
+      rock_interactive_61: -694098507
+      rock_interactive_62: 1164884999
+      rock_interactive_63: 232510539
+      rock_interactive_64: 1796144271
+      rock_interactive_65: 915589663
+      rock_interactive_66: -1189835538
+      rock_interactive_67: 308979343
+      rock_interactive_68: -1611225595
+      rock_interactive_69: -1435432209
+      rock_interactive_7: -4846254
+      rock_interactive_70: 464829304
+      rock_interactive_71: -1354039064
+      rock_interactive_72: 1905607775
+      rock_interactive_73: -1951611856
+      rock_interactive_74: 1208674092
+      rock_interactive_75: 2012004681
+      rock_interactive_76: -2134295594
+      rock_interactive_77: -1909939111
+      rock_interactive_78: 1924510590
+      rock_interactive_79: 1469064216
+      rock_interactive_8: 1127979279
+      rock_interactive_80: -1639776522
+      rock_interactive_81: -557795971
+      rock_interactive_82: -122218628
+      rock_interactive_83: 1690207551
+      rock_interactive_84: 921693680
+      rock_interactive_85: -86922318
+      rock_interactive_86: 2048176691
+      rock_interactive_87: 1340073966
+      rock_interactive_88: -997134537
+      rock_interactive_89: -1312749084
+      rock_interactive_9: 669078622
+      rock_interactive_90: -1652354618
+      rock_interactive_91: -1160110482
+      rock_interactive_92: -1587394258
+      rock_interactive_93: -2085620708
+      rock_interactive_94: 264228979
+      rock_interactive_95: -1943783903
+      rock_interactive_96: -1505683803
+      rock_interactive_97: 629900644
+      rock_interactive_98: 1738876553
+      rock_interactive_99: -415291517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
