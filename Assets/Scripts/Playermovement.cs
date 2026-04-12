@@ -19,6 +19,8 @@ public class Playermovement : MonoBehaviour
         initialScale = transform.localScale;
         lastClickedPos = transform.position;
         canMove = true; 
+
+        if (animator != null) animator.SetBool("isAnxious", false);
     }
 
     void Update()
