@@ -919,8 +919,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 5.3889008, y: 0.28884995, z: 0}
-    m_Extent: {x: 32.0377, y: 2.83115, z: 0}
+    m_Center: {x: 7.4706497, y: 0.09019995, z: 0}
+    m_Extent: {x: 36.46035, y: 2.9305, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -931,11 +931,11 @@ MonoBehaviour:
   m_ShapeLightFalloffSize: 0.3
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -26.34924, y: -2.241344, z: 0}
+  - {x: -28.69093, y: -2.539339, z: 0}
   - {x: 11.775432, y: -2.1288595, z: 0}
-  - {x: 37.127644, y: -2.119605, z: 0}
-  - {x: 37.043705, y: 2.8196712, z: 0}
-  - {x: -26.197598, y: 2.4797773, z: 0}
+  - {x: 43.632328, y: -2.119605, z: 0}
+  - {x: 43.418297, y: 2.7203395, z: 0}
+  - {x: -28.279102, y: 2.4797776, z: 0}
 --- !u!1 &383812041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press SPACEBAR to Echo & find your way
+  m_text: Press SPACEBAR to Echo & Find your way
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 639192183}
   m_Layer: 0
   m_Name: AnxietyZone
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1953,11 +1953,11 @@ Transform:
   m_GameObject: {fileID: 639192181}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25, y: 2.1, z: 0}
-  m_LocalScale: {x: 1.4676684, y: 3.1017816, z: 1}
+  m_LocalPosition: {x: 8.60268, y: 2.5193305, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 729741239}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &639192183
 BoxCollider2D:
@@ -2017,6 +2017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34d1d5e32c7d49cabc7fd115c7f99f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnxietyZone
+  dangerSound: {fileID: 1486025615}
 --- !u!1 &710768979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2278,6 @@ Transform:
   m_LocalScale: {x: 0.6813528, y: 0.32239535, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 639192182}
   - {fileID: 349137574}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6871,7 +6871,6 @@ GameObject:
   m_Component:
   - component: {fileID: 997675675}
   - component: {fileID: 997675674}
-  - component: {fileID: 997675676}
   m_Layer: 0
   m_Name: WarningSoundArea
   m_TagString: Untagged
@@ -6915,19 +6914,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 616070359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &997675676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997675673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985057c492ecb46eeaaf352d977c26c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  warningSource: {fileID: 1486025615}
 --- !u!1 &1127737538
 GameObject:
   m_ObjectHideFlags: 0
@@ -7019,7 +7005,7 @@ RectTransform:
   m_GameObject: {fileID: 1127737538}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0035741145, y: 0.0035741145, z: 0.0035741145}
+  m_LocalScale: {x: 0.007, y: 0.007, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 413063719}
@@ -7027,8 +7013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -0.0000018179417, y: -0.00000011920929}
+  m_SizeDelta: {x: 3396.799, y: 1734.278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1239745796
 GameObject:
@@ -7426,7 +7412,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a97720f9706094e6689e40648a888111, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.07
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7805,7 +7791,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486025613}
-  - component: {fileID: 1486025614}
   - component: {fileID: 1486025615}
   m_Layer: 0
   m_Name: WarningSound
@@ -7829,20 +7814,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 616070359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1486025614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486025612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d865ae05141324425b7da88034d2d1c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AmbienceSound
-  Area: {fileID: 997675674}
-  Player: {fileID: 841180857}
 --- !u!82 &1486025615
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7856,7 +7827,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d6dc24670dea4462cb56200c98b3530d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8983,7 +8954,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LightToggle
   lightDuration: 2
   fadeDuration: 2
-  maxIntensity: 1
+  maxIntensity: 3
+  dimmedIntensity: 0.5
+  flickerAmount: 0.7
+  flickerSpeed: 0.5
 --- !u!1 &1923421705
 GameObject:
   m_ObjectHideFlags: 0
@@ -9712,7 +9686,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.5448113, g: 0.7038006, b: 0.7264151, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000e945150a051eab0f1981ffb7ef2b7fab
@@ -9784,3 +9758,4 @@ SceneRoots:
   - {fileID: 1669106696}
   - {fileID: 1239745797}
   - {fileID: 616070359}
+  - {fileID: 639192182}

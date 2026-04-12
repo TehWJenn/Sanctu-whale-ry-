@@ -13,26 +13,24 @@ public class NPC : MonoBehaviour, IInteractable
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
-    
-    // The "Shield" that stops the instant-freeze/double-click
     private bool canSkip; 
+    
+    // This ensures the dialogue only happens once
+    private bool hasPlayed = false; 
 
     public bool CanInteract()
     {
-        return !isDialogueActive;
+        // Only allow interaction if not active and hasn't played yet
+        return !isDialogueActive && !hasPlayed;
     }
 
     public void Interact()
     {
-        if(dialogueData == null) return; 
+        if(dialogueData == null || hasPlayed) return; 
         
         if (isDialogueActive)
         {
-            // Only skip or go to next line if the "Skip Gate" is open
-            if (canSkip)
-            {
-                NextLine();
-            }
+            if (canSkip) NextLine();
         }
         else
         {
@@ -53,15 +51,12 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueText.SetText(""); 
 
         dialoguePanel.SetActive(true);
-        
-        // Fixed: Talking to PauseController directly
         PauseController.SetPause(true);
 
-        // This ensures the first line starts typing WITHOUT a second click
         StartCoroutine(TypeLine());
         StartCoroutine(EnableSkipAfterDelay());
         
-        // Force the mouse to stay visible
+        // Ensure cursor is visible when dialogue starts
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
@@ -75,14 +70,9 @@ public class NPC : MonoBehaviour, IInteractable
             isTyping = false;
             canSkip = true; 
         }
-        else if (++dialogueIndex < dialogueData.dialogueLines.Length)
+        else 
         {
-            canSkip = false; 
-            StartCoroutine(TypeLine());
-            StartCoroutine(EnableSkipAfterDelay());
-        }
-        else
-        {
+            // Closes the box on the next click after text is full
             EndDialogue();
         } 
     }
@@ -91,14 +81,11 @@ public class NPC : MonoBehaviour, IInteractable
     {
         isTyping = true;
         dialogueText.SetText("");
-
-        // Wait a frame to clear the 'Interact' click
         yield return new WaitForEndOfFrame();
 
         foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
-            // Use Realtime so it types while the game is paused
             yield return new WaitForSecondsRealtime(dialogueData.typingSpeed); 
         }
 
@@ -107,7 +94,6 @@ public class NPC : MonoBehaviour, IInteractable
 
     IEnumerator EnableSkipAfterDelay()
     {
-        // Shield the text for 0.3 seconds
         yield return new WaitForSecondsRealtime(0.3f);
         canSkip = true;
     }
@@ -116,14 +102,16 @@ public class NPC : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         isDialogueActive = false;
-        dialogueText.SetText("");
+        hasPlayed = true; // Mark as done forever
+
         dialoguePanel.SetActive(false);
         
-        // Unpause the game
+        // Unpause the game first
         PauseController.SetPause(false);
-        
         Playermovement.canMove = true; 
 
+        // FORCE cursor back to visible AFTER unpausing
+        // This stops other scripts from hiding it
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         
@@ -131,6 +119,143 @@ public class NPC : MonoBehaviour, IInteractable
             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
     }
 }
+
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+// using UnityEngine.UI;
+// using TMPro; 
+
+// public class NPC : MonoBehaviour, IInteractable
+// {
+//     public NPCDialogue dialogueData;
+//     public GameObject dialoguePanel;
+//     public TMP_Text dialogueText, nameText;
+//     public Image portraitImage;
+
+//     private int dialogueIndex;
+//     private bool isTyping, isDialogueActive;
+    
+//     // The "Shield" that stops the instant-freeze/double-click
+//     private bool canSkip; 
+
+//     public bool CanInteract()
+//     {
+//         return !isDialogueActive;
+//     }
+
+//     public void Interact()
+//     {
+//         if(dialogueData == null) return; 
+        
+//         if (isDialogueActive)
+//         {
+//             // Only skip or go to next line if the "Skip Gate" is open
+//             if (canSkip)
+//             {
+//                 NextLine();
+//             }
+//         }
+//         else
+//         {
+//             StartDialogue();
+//         }
+//     }
+
+//     void StartDialogue()
+//     {
+//         isDialogueActive = true;
+//         canSkip = false; 
+//         dialogueIndex = 0;
+        
+//         Playermovement.canMove = false; 
+
+//         nameText.SetText(dialogueData.npcName);
+//         portraitImage.sprite = dialogueData.npcPortrait;
+//         dialogueText.SetText(""); 
+
+//         dialoguePanel.SetActive(true);
+        
+//         // Fixed: Talking to PauseController directly
+//         PauseController.SetPause(true);
+
+//         // This ensures the first line starts typing WITHOUT a second click
+//         StartCoroutine(TypeLine());
+//         StartCoroutine(EnableSkipAfterDelay());
+        
+//         // Force the mouse to stay visible
+//         Cursor.visible = true;
+//         Cursor.lockState = CursorLockMode.None;
+//     }
+
+//     void NextLine()
+//     {
+//         if (isTyping)
+//         {
+//             StopAllCoroutines();
+//             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+//             isTyping = false;
+//             canSkip = true; 
+//         }
+//         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
+//         {
+//             canSkip = false; 
+//             StartCoroutine(TypeLine());
+//             StartCoroutine(EnableSkipAfterDelay());
+//         }
+//         else
+//         {
+//             EndDialogue();
+//         } 
+//     }
+
+//     IEnumerator TypeLine()
+//     {
+//         isTyping = true;
+//         dialogueText.SetText("");
+
+//         // Wait a frame to clear the 'Interact' click
+//         yield return new WaitForEndOfFrame();
+
+//         foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
+//         {
+//             dialogueText.text += letter;
+//             // Use Realtime so it types while the game is paused
+//             yield return new WaitForSecondsRealtime(dialogueData.typingSpeed); 
+//         }
+
+//         isTyping = false;
+//     }
+
+//     IEnumerator EnableSkipAfterDelay()
+//     {
+//         // Shield the text for 0.3 seconds
+//         yield return new WaitForSecondsRealtime(0.3f);
+//         canSkip = true;
+//     }
+
+//     public void EndDialogue()
+//     {
+//         StopAllCoroutines();
+//         isDialogueActive = false;
+//         dialogueText.SetText("");
+//         dialoguePanel.SetActive(false);
+        
+//         // Unpause the game
+//         PauseController.SetPause(false);
+        
+//         Playermovement.canMove = true; 
+
+//         Cursor.visible = true;
+//         Cursor.lockState = CursorLockMode.None;
+        
+//         if (UnityEngine.EventSystems.EventSystem.current != null)
+//             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+//     }
+// }
+
+
+
 
 // using System.Collections;
 // using System.Collections.Generic;
