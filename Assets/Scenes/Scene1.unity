@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbec0c34e5be91b4dba83a17333ca379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveToClick
-  moveSpeed: 3
+  moveSpeed: 2
   talk1: {fileID: 998079102}
   talk2: {fileID: 796864516}
   talk3: {fileID: 819187216}
