@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.317108, y: -1.4485016}
-  m_SizeDelta: {x: -65.2627, y: -55.5257}
+  m_AnchoredPosition: {x: 19.4742, y: -14.605698}
+  m_SizeDelta: {x: -38.9485, y: -29.2114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13278781
 MonoBehaviour:
@@ -847,7 +847,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: faa767cb977294362b0edbf75542e6e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1157,8 +1157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11.279297, y: -3.6414032}
-  m_SizeDelta: {x: -55.3384, y: -51.14}
+  m_AnchoredPosition: {x: 19.4742, y: -14.605698}
+  m_SizeDelta: {x: -38.9485, y: -29.2114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421261935
 MonoBehaviour:
@@ -1315,8 +1315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.157, y: -360.26}
-  m_SizeDelta: {x: 973.69, y: 178.07}
+  m_AnchoredPosition: {x: 0.000015259, y: -371.2229}
+  m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490997672
 MonoBehaviour:
@@ -1333,7 +1333,7 @@ MonoBehaviour:
   displayText: {fileID: 1650725420}
   fullText: There has been a pause on the up keep of my enclosure :( I wonder when
     they will come back to take care of it...
-  typingSpeed: 0.07
+  typingSpeed: 0.1
   isNeedNext: 0
   next: {fileID: 0}
   index: 3
@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   displayText: {fileID: 1925433047}
   fullText: 'Oh... This weirdly shaped rock kind of reminds me of human''s hands. '
-  typingSpeed: 0.07
+  typingSpeed: 0.1
   isNeedNext: 1
   next: {fileID: 1115496732}
   index: 2
@@ -2077,9 +2077,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   displayText: {fileID: 2145141525}
-  fullText: "Eww... Look at all these algae! Since the closing of this aquarium from
-    the protest of whale enclosures, my keepers have left me alone\u2026"
-  typingSpeed: 0.07
+  fullText: "Eww... Look at all these algae! Since the close down of this aquarium
+    from the protest against whale enclosures, my keepers have left me alone here\u2026"
+  typingSpeed: 0.1
   isNeedNext: 1
   next: {fileID: 490997670}
   index: 3
@@ -2281,7 +2281,6 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
-  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2396,50 +2395,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
---- !u!114 &963194231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
-  m_Version: 2
 --- !u!1 &998079102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,7 +2408,6 @@ GameObject:
   - component: {fileID: 998079104}
   - component: {fileID: 998079107}
   - component: {fileID: 998079106}
-  - component: {fileID: 998079108}
   m_Layer: 5
   m_Name: Talk1
   m_TagString: Untagged
@@ -2533,7 +2487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   displayText: {fileID: 421261935}
   fullText: 'OH LOOK!!! My toy! I used to have quite a lot of these.  '
-  typingSpeed: 0.07
+  typingSpeed: 0.1
   isNeedNext: 1
   next: {fileID: 1024381107}
   index: 1
@@ -2593,47 +2547,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 998079102}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
---- !u!114 &998079108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998079102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 998079102}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
 --- !u!1 &1024381107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2690,7 +2603,7 @@ MonoBehaviour:
   fullText: '...But since the aquarium closed down, now one comes here to see me
     play with them anymore... oh well... But being forced to play everyday was exhausting
     anyways. '
-  typingSpeed: 0.07
+  typingSpeed: 0.1
   isNeedNext: 0
   next: {fileID: 0}
   index: 1
@@ -2822,8 +2735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 27.4962, y: -14.605698}
-  m_SizeDelta: {x: -22.9044, y: -29.2114}
+  m_AnchoredPosition: {x: 19.4742, y: -14.605698}
+  m_SizeDelta: {x: -38.9485, y: -29.2114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1068197873
 MonoBehaviour:
@@ -3091,8 +3004,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.157, y: -360.2586}
-  m_SizeDelta: {x: 973.6857, y: 178.0714}
+  m_AnchoredPosition: {x: 0.000015259, y: -371.2229}
+  m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115496734
 MonoBehaviour:
@@ -3108,9 +3021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   displayText: {fileID: 1068197873}
   fullText: "It was fun to interact with the humans! \u2026but I get overwhelmed
-    easily,           I have to look out for dirty hands\u2026 they sometimes would
-    affect my sensitive skin. "
-  typingSpeed: 0.07
+    easily, I have to look out for dirty hands\u2026 they sometimes would affect
+    my sensitive skin. "
+  typingSpeed: 0.1
   isNeedNext: 0
   next: {fileID: 0}
   index: 2
@@ -3491,6 +3404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453226054}
   - component: {fileID: 1453226053}
+  - component: {fileID: 1453226052}
   - component: {fileID: 1453226051}
   m_Layer: 5
   m_Name: Canvas
@@ -3506,7 +3420,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453226050}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -3516,6 +3430,29 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1453226052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453226050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1453226053
 Canvas:
   m_ObjectHideFlags: 0
@@ -3537,7 +3474,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1453226054
 RectTransform:
@@ -4050,8 +3987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.316986, y: 0.74430084}
-  m_SizeDelta: {x: -65.2628, y: -59.9114}
+  m_AnchoredPosition: {x: 19.4742, y: -14.605698}
+  m_SizeDelta: {x: -38.9485, y: -29.2114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1925433047
 MonoBehaviour:
@@ -4221,8 +4158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.316986, y: 0.74430084}
-  m_SizeDelta: {x: -65.2628, y: -59.9114}
+  m_AnchoredPosition: {x: 19.4742, y: -14.605698}
+  m_SizeDelta: {x: -38.9485, y: -29.2114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145141525
 MonoBehaviour:

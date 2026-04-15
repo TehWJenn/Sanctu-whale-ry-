@@ -1,168 +1,89 @@
 using UnityEngine;
 
+// ¹ÒÔØµ½ÐèÒªÒÆ¶¯µÄ½ÇÉ«¶ÔÏóÉÏ
 public class ClickToMove : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float moveSpeed = 5f; 
+    [Header("ÒÆ¶¯ÉèÖÃ")]
+    [Tooltip("½ÇÉ«ÒÆ¶¯ËÙ¶È")]
+    public float moveSpeed = 5f; // ¿ÉÔÚInspectorÃæ°åµ÷Õû
 
-    private Vector2 targetPosition; 
-    private bool isMoving = false;  
+    private Vector2 targetPosition; // Êó±êµã»÷µÄÄ¿±êÎ»ÖÃ
+    private bool isMoving = false;  // ÊÇ·ñ´¦ÓÚÒÆ¶¯×´Ì¬
 
-    private SpriteRenderer spriteRenderer; 
-    private Animator anim; // Added for animations
-
-    [Header("Dialogue Objects")]
+    private SpriteRenderer spriteRenderer; // ÓÃÓÚ¿ØÖÆ½ÇÉ«³¯Ïò
     public GameObject talk1;
     public GameObject talk2;
     public GameObject talk3;
-
     void Start()
     {
+        // ³õÊ¼Ä¿±êÎ»ÖÃÉèÎª½ÇÉ«µ±Ç°Î»ÖÃ
         targetPosition = transform.position;
+
+        // »ñÈ¡SpriteRenderer×é¼þ
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
-        // Link the animator component
-        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // 1. Check for Click
-       if (Input.GetMouseButtonDown(0))
-    {
-        // Convert mouse click to world space
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
-        // CRITICAL: Force the Z to 0 so the whale stays on the 2D plane
-        targetPosition = new Vector2(mousePos.x, mousePos.y); 
-        isMoving = true;
-    }
+        // ¼ì²âÊó±ê×ó¼üµã»÷
+        if (Input.GetMouseButtonDown(0))
+        {
+            // ½«ÆÁÄ»×ø±ê×ª»»ÎªÊÀ½ç×ø±ê£¨2D³¡¾°£©
+            Vector2 mouseScreenPos = Input.mousePosition;
+            // ×¢Òâ£º2D³¡¾°ÖÐZÖáÉèÎªÏà»úµ½Æ½ÃæµÄ¾àÀë£¨ÕâÀïÓÃ10£¬ÊÊÅäÄ¬ÈÏ2DÏà»ú£©
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPos.x, mouseScreenPos.y, 10f));
 
-        // 2. Handle Movement
+            // ÉèÖÃÒÆ¶¯Ä¿±ê
+            targetPosition = mouseWorldPos;
+            isMoving = true;
+        }
+
+        // Èç¹ûÐèÒªÒÆ¶¯£¬ÏòÄ¿±êÎ»ÖÃÒÆ¶¯
         if (isMoving)
         {
+            // Æ½»¬ÒÆ¶¯£ºÃ¿Ö¡ÒÆ¶¯Ò»¶¨¾àÀë£¬±ÜÃâË²ÒÆ
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
 
-            if (Vector2.Distance(transform.position, targetPosition) < 0.05f) // Increased threshold slightly
+            // ¼ì²âÊÇ·ñµ½´ïÄ¿±êÎ»ÖÃ£¨¾àÀëÐ¡ÓÚ0.01Ê±Í£Ö¹£©
+            if (Vector2.Distance(transform.position, targetPosition) < 0.01f)
             {
                 isMoving = false;
+                // Ç¿ÖÆ¶ÔÆëÄ¿±êÎ»ÖÃ£¨±ÜÃâÎ¢Ð¡Æ«ÒÆ£©
                 transform.position = targetPosition;
-
-                // Stop the animation!
-                if(anim != null) anim.SetBool("isWalking", false);
             }
         }
 
-        // 3. Handle Flipping (Whale Direction)
-        if (targetPosition.x > transform.position.x + 0.01f)
+        // ¸ù¾ÝÄ¿±êÎ»ÖÃµ÷Õû½ÇÉ«µÄ³¯Ïò
+        if (targetPosition.x > transform.position.x)
         {
+            // Ä¿±êÔÚÓÒ²à£¬³¯ÏòÓÒ±ß
             spriteRenderer.flipX = false;
         }
-        else if (targetPosition.x < transform.position.x - 0.01f)
+        else if (targetPosition.x < transform.position.x)
         {
+            // Ä¿±êÔÚ×ó²à£¬³¯Ïò×ó±ß
             spriteRenderer.flipX = true;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Using .CompareTag is more efficient than .name
         if (collision.gameObject.name == "obj1")
         {
-            talk1.SetActive(true);
+            talk1.gameObject.SetActive(true);
             collision.gameObject.SetActive(false);
         }
-        // ... same for obj2 and obj3
+
+        if (collision.gameObject.name == "obj2")
+        {
+            talk2.gameObject.SetActive(true);
+            collision.gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.name == "obj3")
+        {
+            talk3.gameObject.SetActive(true);
+            collision.gameObject.SetActive(false);
+        }
     }
 }
-
-
-// using UnityEngine;
-
-// // ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½Òªï¿½Æ¶ï¿½ï¿½Ä½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-// public class ClickToMove : MonoBehaviour
-// {
-//     [Header("ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½")]
-//     [Tooltip("ï¿½ï¿½É«ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½")]
-//     public float moveSpeed = 5f; // ï¿½ï¿½ï¿½ï¿½Inspectorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-//     private Vector2 targetPosition; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Î»ï¿½ï¿½
-//     private bool isMoving = false;  // ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½×´Ì¬
-
-//     private SpriteRenderer spriteRenderer; // ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½Æ½ï¿½É«ï¿½ï¿½ï¿½ï¿½
-//     public GameObject talk1;
-//     public GameObject talk2;
-//     public GameObject talk3;
-//     void Start()
-//     {
-//         // ï¿½ï¿½Ê¼Ä¿ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½É«ï¿½ï¿½Ç°Î»ï¿½ï¿½
-//         targetPosition = transform.position;
-
-//         // ï¿½ï¿½È¡SpriteRendererï¿½ï¿½ï¿½
-//         spriteRenderer = GetComponent<SpriteRenderer>();
-//     }
-
-//     void Update()
-//     {
-//         // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-//         if (Input.GetMouseButtonDown(0))
-//         {
-//             // ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê£¨2Dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-//             Vector2 mouseScreenPos = Input.mousePosition;
-//             // ×¢ï¿½â£º2Dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½Ä¾ï¿½ï¿½ë£¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½2Dï¿½ï¿½ï¿½ï¿½ï¿½
-//             Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPos.x, mouseScreenPos.y, 10f));
-
-//             // ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½Ä¿ï¿½ï¿½
-//             targetPosition = mouseWorldPos;
-//             isMoving = true;
-//         }
-
-//         // ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Î»ï¿½ï¿½ï¿½Æ¶ï¿½
-//         if (isMoving)
-//         {
-//             // Æ½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½Ã¿Ö¡ï¿½Æ¶ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½Ë²ï¿½ï¿½
-//             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-
-//             // ï¿½ï¿½ï¿½ï¿½Ç·ñµ½´ï¿½Ä¿ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½0.01Ê±Í£Ö¹ï¿½ï¿½
-//             if (Vector2.Distance(transform.position, targetPosition) < 0.01f)
-//             {
-//                 isMoving = false;
-//                 // Ç¿ï¿½Æ¶ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Î¢Ð¡Æ«ï¿½Æ£ï¿½
-//                 transform.position = targetPosition;
-//             }
-//         }
-
-//         // ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Î»ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½Ä³ï¿½ï¿½ï¿½
-//         if (targetPosition.x > transform.position.x)
-//         {
-//             // Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½Ò²à£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ò±ï¿½
-//             spriteRenderer.flipX = false;
-//         }
-//         else if (targetPosition.x < transform.position.x)
-//         {
-//             // Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-//             spriteRenderer.flipX = true;
-//         }
-//     }
-
-//     private void OnTriggerEnter2D(Collider2D collision)
-//     {
-//         if (collision.gameObject.name == "obj1")
-//         {
-//             talk1.gameObject.SetActive(true);
-//             collision.gameObject.SetActive(false);
-//         }
-
-//         if (collision.gameObject.name == "obj2")
-//         {
-//             talk2.gameObject.SetActive(true);
-//             collision.gameObject.SetActive(false);
-//         }
-
-//         if (collision.gameObject.name == "obj3")
-//         {
-//             talk3.gameObject.SetActive(true);
-//             collision.gameObject.SetActive(false);
-//         }
-//     }
-// }
