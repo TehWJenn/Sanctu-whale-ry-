@@ -7,6 +7,10 @@ TagManager:
   - 1
   - 2
   - 3
+  - Target
+  - Target1
+  - Target2
+  - Target3
   layers:
   - Default
   - TransparentFX
