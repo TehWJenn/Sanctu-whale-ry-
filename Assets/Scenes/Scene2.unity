@@ -2399,11 +2399,11 @@ GameObject:
   m_Component:
   - component: {fileID: 841180861}
   - component: {fileID: 841180860}
-  - component: {fileID: 841180858}
   - component: {fileID: 841180863}
   - component: {fileID: 841180864}
   - component: {fileID: 841180865}
   - component: {fileID: 841180866}
+  - component: {fileID: 841180867}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -2411,19 +2411,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &841180858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841180857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4194c5173656d4c8b9b09021a3ceef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Playermovement
-  moveSpeed: 3
 --- !u!212 &841180860
 SpriteRenderer:
   serializedVersion: 2
@@ -2692,6 +2679,19 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &841180867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841180857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4194c5173656d4c8b9b09021a3ceef02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Playermovement
+  moveSpeed: 3
 --- !u!1 &876548111
 GameObject:
   m_ObjectHideFlags: 0
