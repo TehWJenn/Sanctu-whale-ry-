@@ -4,11 +4,20 @@ public class GoalTrigger : MonoBehaviour
 {
     public LevelLoader levelLoader;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    // This function runs automatically when something enters the trigger
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player"))
+        // Check if the object that touched this has the "Player" tag
+        if (other.CompareTag("Player"))
         {
-            levelLoader.TriggerNextLevel();
+            if (levelLoader != null)
+            {
+                levelLoader.TriggerNextLevel();
+            }
+            else
+            {
+                Debug.LogError("LevelLoader not assigned to GoalTrigger!");
+            }
         }
     }
 }
