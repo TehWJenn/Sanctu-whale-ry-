@@ -6,7 +6,10 @@ using TMPro;
 
 public class NPC : MonoBehaviour, IInteractable
 {
+    [Header("Dialogue Data")]
     public NPCDialogue dialogueData;
+    
+    [Header("UI References")]
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
@@ -38,12 +41,25 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
+    // This handles the automatic popup when crossing the collider
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Only trigger if it's the Player and it hasn't played yet
+        if (other.CompareTag("Player") && !hasPlayed && !isDialogueActive)
+        {
+            StartDialogue();
+        }
+    }
+
     void StartDialogue()
     {
+        if (dialogueData == null) return;
+
         isDialogueActive = true;
         canSkip = false; 
         dialogueIndex = 0;
         
+        // Stop player movement
         Playermovement.canMove = false; 
 
         nameText.SetText(dialogueData.npcName);
@@ -72,7 +88,8 @@ public class NPC : MonoBehaviour, IInteractable
         }
         else 
         {
-            // Closes the box on the next click after text is full
+            // If you only have 1 line, this ends it. 
+            // If you had more lines, you'd add logic here to increment dialogueIndex
             EndDialogue();
         } 
     }
@@ -102,16 +119,15 @@ public class NPC : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         isDialogueActive = false;
-        hasPlayed = true; // Mark as done forever
+        hasPlayed = true; // Mark as done forever so it won't pop up again
 
         dialoguePanel.SetActive(false);
         
-        // Unpause the game first
+        // Unpause the game
         PauseController.SetPause(false);
         Playermovement.canMove = true; 
 
-        // FORCE cursor back to visible AFTER unpausing
-        // This stops other scripts from hiding it
+        // Set cursor back
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         
@@ -119,6 +135,138 @@ public class NPC : MonoBehaviour, IInteractable
             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
     }
 }
+
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+// using UnityEngine.UI;
+// using TMPro; 
+
+// public class NPC : MonoBehaviour, IInteractable
+// {
+//     public NPCDialogue dialogueData;
+//     public GameObject dialoguePanel;
+//     public TMP_Text dialogueText, nameText;
+//     public Image portraitImage;
+
+//     private int dialogueIndex;
+//     private bool isTyping, isDialogueActive;
+//     private bool canSkip; 
+    
+//     // This ensures the dialogue only happens once
+//     private bool hasPlayed = false; 
+
+//     public bool CanInteract()
+//     {
+//         // Only allow interaction if not active and hasn't played yet
+//         return !isDialogueActive && !hasPlayed;
+//     }
+
+//     public void Interact()
+//     {
+//         if(dialogueData == null || hasPlayed) return; 
+        
+//         if (isDialogueActive)
+//         {
+//             if (canSkip) NextLine();
+//         }
+//         else
+//         {
+//             StartDialogue();
+//         }
+//     }
+
+//     void StartDialogue()
+//     {
+//         isDialogueActive = true;
+//         canSkip = false; 
+//         dialogueIndex = 0;
+        
+//         Playermovement.canMove = false; 
+
+//         nameText.SetText(dialogueData.npcName);
+//         portraitImage.sprite = dialogueData.npcPortrait;
+//         dialogueText.SetText(""); 
+
+//         dialoguePanel.SetActive(true);
+//         PauseController.SetPause(true);
+
+//         StartCoroutine(TypeLine());
+//         StartCoroutine(EnableSkipAfterDelay());
+        
+//         // Ensure cursor is visible when dialogue starts
+//         Cursor.visible = true;
+//         Cursor.lockState = CursorLockMode.None;
+//     }
+
+//     void NextLine()
+//     {
+//         if (isTyping)
+//         {
+//             StopAllCoroutines();
+//             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+//             isTyping = false;
+//             canSkip = true; 
+//         }
+//         else 
+//         {
+//             // Closes the box on the next click after text is full
+//             EndDialogue();
+//         } 
+//     }
+
+//     IEnumerator TypeLine()
+//     {
+//         isTyping = true;
+//         dialogueText.SetText("");
+//         yield return new WaitForEndOfFrame();
+
+//         foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
+//         {
+//             dialogueText.text += letter;
+//             yield return new WaitForSecondsRealtime(dialogueData.typingSpeed); 
+//         }
+
+//         isTyping = false;
+//     }
+
+//     IEnumerator EnableSkipAfterDelay()
+//     {
+//         yield return new WaitForSecondsRealtime(0.3f);
+//         canSkip = true;
+//     }
+
+//     public void EndDialogue()
+//     {
+//         StopAllCoroutines();
+//         isDialogueActive = false;
+//         hasPlayed = true; // Mark as done forever
+
+//         dialoguePanel.SetActive(false);
+        
+//         // Unpause the game first
+//         PauseController.SetPause(false);
+//         Playermovement.canMove = true; 
+
+//         // FORCE cursor back to visible AFTER unpausing
+//         // This stops other scripts from hiding it
+//         Cursor.visible = true;
+//         Cursor.lockState = CursorLockMode.None;
+        
+//         if (UnityEngine.EventSystems.EventSystem.current != null)
+//             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+//     }
+
+//     void OnTriggerEnter2D(Collider2D other)
+// {
+//     // Check if the thing hitting the soundwaves is tagged "Player"
+//     // AND check if the dialogue hasn't played yet
+//     if (other.CompareTag("Player") && !hasPlayed)
+//     {
+//         StartDialogue();
+//     }
+// }
+// }
 
 // using System.Collections;
 // using System.Collections.Generic;
